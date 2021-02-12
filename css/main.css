@@ -98,7 +98,6 @@ a {
 }
 
 #home {
-  /* height: 100vh; */
   padding-top: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -118,5 +117,48 @@ a {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin: 15vh 0;
+  padding: 15vh 0;
+}
+
+/* Music block styles */
+
+#music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#music audio{
+  width: 50vw;
+}
+
+#music .audio {
+  margin-bottom: 40px;
+}
+
+/* ================ */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  height: 80vh;
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: end; */
+}
+
+#about img {
+  max-width: 40vw;
+  min-width: 20vw;
+  max-height: auto;
+  min-height: auto;
+  padding-left: 10vw ;
+}
+
+#about .about {
+  max-width: 600px;
+  padding-left: 5vw;
 }

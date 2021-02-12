@@ -10,6 +10,7 @@
 </head>
 
 <body>
+	<!-- header with navbar -->
 	<header>
 		<div class="navbar">
 			<div id="logo">XonorMusic</div>
@@ -29,6 +30,7 @@
 		</div>
 	</header>
 	
+	<!-- home block -->
 	<div id="home">
 		<div class="home-image">
 			<img src="./img/plastic.png" alt="plastic">
@@ -44,10 +46,61 @@
 			<path fill-rule="evenodd" clip-rule="evenodd" d="M29.1662 44.5278L51.4561 22.2379L57.8201 28.6018L29.1662 57.2558L0.900638 28.9902L7.2646 22.6263L29.1662 44.5278Z" fill="black"/>
 		</svg></a>				
 	</div>
+
+	<!-- video block -->
 	<div id="video">
-		<iframe width="972" height="548" src="https://www.youtube.com/embed/Po467ppWqVc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<div><iframe width="972" height="548" src="https://www.youtube.com/embed/Po467ppWqVc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 	</div>
-	<div id="music"></div>
-	<div id="about"></div>
+
+	<!-- music block -->
+	<div id="music">
+		<div class="audio">
+			<p>Environment</p>
+			<audio src="" preload='metadata' controls>
+				<source src="./audio/Environment.mp3">
+				<source src="./audio/Environment.wav">
+				<source src="./audio/Environment.ogg">
+				Ваш браузер не поддерживает тег audio
+			</audio>
+		</div>
+		<div class="audio">
+			<p>Paradise</p>
+		<audio src="" preload='metadata' controls>
+			<source src="./audio/Paradise.mp3">
+			<source src="./audio/Paradise.wav">
+			<source src="./audio/Paradise.ogg">
+			Ваш браузер не поддерживает тег audio
+		</audio>
+		</div>
+		<div class="audio">
+			<p>Honor</p>
+		<audio src="" preload='metadata' controls>
+			<source src="./audio/Honor.mp3">
+			<source src="./audio/Honor.wav">
+			<source src="./audio/Honor.ogg">
+			Ваш браузер не поддерживает тег audio
+		</audio>
+		</div>
+		<div class="audio">
+			<p>Oat Cookies (Instrumental)</p>
+			<audio src="" preload='metadata' controls>
+				<source src="./audio/Oat_Cookies.mp3">
+				<source src="./audio/Oat_Cookies.wav">
+				<source src="./audio/Oat_Cookies.ogg">
+				Ваш браузер не поддерживает тег audio
+			</audio>
+		</div>
+	</div>
+
+	<!-- about block -->
+	<div id="about">
+		<div class="image">
+			<img src="./img/face.png" alt="Face">
+		</div>
+		<div class="about">
+			<h2>Xonor</h2>
+			<p>Дастан Каппасов - ...</p>
+		</div>
+	</div>
 </body>
 </html>
