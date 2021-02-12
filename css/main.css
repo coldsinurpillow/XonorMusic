@@ -6,7 +6,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #E9E9E9;
+  background-color: #DFDFDF;
 }
 
 .navbar {
@@ -19,6 +19,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 0 1%;
+  position: fixed;
+  z-index: 9;
 }
 
 #logo {
@@ -63,4 +65,58 @@ a {
 
 #lang {
   text-decoration: underline;
+}
+
+.home-image img {
+  max-height: 600px;
+  width: auto;
+}
+
+.home-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home-content button {
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 20px;
+  color: #DFDFDF;
+  background-color: #131313;
+  padding: 10px 55px;
+  border: none;
+}
+
+.home-content button:last-child {
+  margin-top: 15px;
+}
+
+#home {
+  /* height: 100vh; */
+  padding-top: 10vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+
+#arrow {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 15vh 0;
 }
