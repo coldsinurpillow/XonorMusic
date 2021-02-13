@@ -122,6 +122,11 @@ a {
   padding: 15vh 0;
 }
 
+#video iframe {
+  width: 60vw;
+  height: 40vw;
+}
+
 /* Music block styles */
 
 #music {
