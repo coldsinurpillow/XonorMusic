@@ -2,6 +2,7 @@
   const lang = document.querySelector('#lang')
   const locales = {
     ru: {
+      lang: "ru",
       home: "Домой",
       music: "Музыка",
       about: "Об исполнителе",
@@ -9,6 +10,7 @@
       aboutXonor: ""
     },
     en: {
+      lang: "en",
       home: "Home",
       music: "Music",
       about: "About",
@@ -19,10 +21,12 @@
   let locale = {}
 
   function changeLocale (locale) {
+    const html = document.querySelector("html")
     const navItems = document.querySelector(".nav").children
     const homeContent = document.querySelector(".home-content")
     const about = document.querySelector(".about").lastElementChild
-    console.log(homeContent)
+
+    html.setAttribute("lang", locale.lang)
     navItems[0].firstChild.innerText = locale.home
     navItems[1].firstChild.innerText = locale.music
     navItems[2].firstChild.innerText = locale.about
