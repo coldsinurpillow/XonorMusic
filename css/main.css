@@ -103,7 +103,8 @@ a {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  height: 80vh;
+  height: 90vh;
+  padding-bottom: 20vh;
 }
 
 #arrow {
@@ -112,7 +113,6 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
-  height: 20vh;
 }
 
 #video {
