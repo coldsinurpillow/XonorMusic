@@ -7,7 +7,7 @@
       music: "Музыка",
       about: "Об исполнителе",
       xonorIn: "Xonor в SoundCloud и Spotify",
-      aboutXonor: ""
+      aboutXonor: "Дастан Каппасов - Xonor (рус. Ксонор) - казахстанский композитор, битмейкер. Настоящее имя Дастан Каппасов Амангелдіұлы (Амангельдинович). Национальность: казах. Родился 24 марта 2002 года в городе Астана (ныне Нур-Султан), Казахстан. В детстве (2012-2013) использовал Virtual DJ в развлекательных целях. Серьёзно заниматься музыкой начал в 2015 году. В первую очередь пробовал себя в MAGIX Music Maker, после начал изучать FL Studio 11, 12, 20. Большинство работ были написаны именно в FL Studio. В 2020 году начал изучение Ableton Live 10, на данный момент использует его и последние работы - результаты, проделанные в Ableton Live 10. Основные жанры: Dubstep, Drum & Bass, Chill Out, Lo-Fi, Ambient, Trance, House, Trap. Дополнительные: Hardstyle, Rap, Hip-Hop, 16-bit. В лейблах не состоит."
     },
     en: {
       lang: "en",
@@ -15,7 +15,7 @@
       music: "Music",
       about: "About",
       xonorIn: "Xonor in SoundCloud and Spotify",
-      aboutXonor: ""
+      aboutXonor: "Xonor (rus. Ксонор [ksonor]) is a Kazakh composer, beatmaker. The real name is Dastan Kappassov Amangeldıūly (Amangeldinovich). Nationality: Kazakh. He was born on March 24, 2002 in the city of Astana (Nur-Sultan now), Kazakhstan. As a child (2012-2013) he used Virtual DJ for entertainment purposes. He began to study music seriously in 2015. First of all he tried himself in MAGIX Music Maker, after that he started to studying FL Studio 11, 12, 20. Most of his works were written in FL Studio. In 2020, he began to study Ableton Live 10, at the moment he is using it and the last work - the results done in Ableton Live 10. Main genres: Dubstep, Drum & Bass, Chill Out, Lo-Fi, Ambient, Trance, House, Trap. Extras: Hardstyle, Rap, Hip-Hop, 16-bit. Doesn't belong to labels."
     }
   }
   let locale = {}
