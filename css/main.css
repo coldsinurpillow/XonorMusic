@@ -67,6 +67,27 @@ a {
   text-decoration: underline;
 }
 
+#myBar1 {
+  top: 0;
+  right: 0;
+  background: black;
+  z-index: 10;
+
+}
+
+#myBar2 {
+  top: 67px;
+  background: black;
+}
+
+.progress-bar {
+  width: 100%;
+  z-index: 9;
+  position: fixed;
+  height: 2px;
+  width: 0%;
+}
+
 .home-image img {
   max-height: 600px;
   width: auto;
@@ -91,6 +112,13 @@ a {
   background-color: #131313;
   padding: 10px 55px;
   border: none;
+  transition: 0.2s ease-in;
+
+}
+
+.home-content .button:hover {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .home-content .button:last-child {
@@ -152,7 +180,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: start;
-  height: 80vh;
+  height: 60vh;
 }
 
 #about img {
