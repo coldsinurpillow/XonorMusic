@@ -148,6 +148,7 @@ a {
   justify-content: center;
   align-content: center;
   padding: 15vh 0;
+  padding-top: 6vh;
 }
 
 #video iframe {
@@ -163,6 +164,7 @@ a {
   justify-content: center;
   padding: 20vh 0;
   align-items: center;
+  padding-bottom: 15vh;
 
 }
 
@@ -181,6 +183,7 @@ a {
   flex-direction: row;
   justify-content: start;
   height: 60vh;
+  margin-bottom: 15vh;
 }
 
 #about img {
